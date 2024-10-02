@@ -34,7 +34,7 @@ Explore all our add-ons at https://gravitywp.com/add-ons/
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/gravitywp-mp-gf-connector/` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/gravitywp-connector-for-gravityforms-mailpoet/` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Create or edit a form and add a Mailpoet feed to start collecting subscribers.
 

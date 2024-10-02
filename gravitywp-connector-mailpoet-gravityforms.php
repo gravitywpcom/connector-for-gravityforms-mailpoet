@@ -7,23 +7,23 @@
  * Author: GravityWP
  * Author URI: https://gravitywp.com
  * License: GPL3
- * Text Domain: gravitywp-mp-gf-connector
+ * Text Domain: gravitywp-connector-for-gravityforms-mailpoet
  * Domain Path: /languages
  */
 
-define( 'GWP_MP_GF_CONNECTOR_VERSION', '1.0' );
+define( 'GWP_MP_GF_VERSION', '1.0' );
 
-add_action( 'gform_loaded', array( 'GWP_MP_GF_Connector_AddOn_Bootstrap', 'load' ), 5 );
+add_action( 'gform_loaded', array( 'GWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap', 'load' ), 5 );
 
 /**
- * GWP_MP_GF_Connector_AddOn_Bootstrap.
+ * GWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap.
  *
  * @author GravityWP
  * @since v1.0
  *
  * @global
  */
-class GWP_MP_GF_Connector_AddOn_Bootstrap {
+class GWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap {
 
 	/**
 	 * Function: load.
@@ -40,8 +40,8 @@ class GWP_MP_GF_Connector_AddOn_Bootstrap {
 			return;
 		}
 
-		require_once 'class-gwp-mailpoet.php';
+		require_once 'class-gwp-connector-mailpoet-gravityforms.php';
 
-		GFFeedAddOn::register( 'GWP_MP_GF_Connector' );
+		GFFeedAddOn::register( 'GWP_Connector_Mailpoet_Gravityforms' );
 	}
 }
