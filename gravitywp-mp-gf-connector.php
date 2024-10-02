@@ -1,29 +1,29 @@
 <?php
 /**
- * Plugin Name: GravityWP - Mailpoet Connector for Gravity Forms
- * Plugin URI: https://gravitywp.com/add-on/mailpoet
+ * Plugin Name: Connector for Gravity Forms and MailPoet
+ * Plugin URI: https://gravitywp.com/add-on/connector-for-gravity-forms-and-mailpoet
  * Description: Integrate Gravity Forms with Mailpoet to easily subscribe users to your Mailpoet newsletters upon form submission.
  * Version: 1.0
  * Author: GravityWP
  * Author URI: https://gravitywp.com
  * License: GPL3
- * Text Domain: gravitywp-mailpoet
+ * Text Domain: gravitywp-mp-gf-connector
  * Domain Path: /languages
  */
 
-define( 'GWP_MAILPOET_VERSION', '1.0' );
+define( 'GWP_MP_GF_CONNECTOR_VERSION', '1.0' );
 
-add_action( 'gform_loaded', array( 'GWP_Mailpoet_AddOn_Bootstrap', 'load' ), 5 );
+add_action( 'gform_loaded', array( 'GWP_MP_GF_Connector_AddOn_Bootstrap', 'load' ), 5 );
 
 /**
- * GWP_Mailpoet_AddOn_Bootstrap.
+ * GWP_MP_GF_Connector_AddOn_Bootstrap.
  *
  * @author GravityWP
  * @since v1.0
  *
  * @global
  */
-class GWP_Mailpoet_AddOn_Bootstrap {
+class GWP_MP_GF_Connector_AddOn_Bootstrap {
 
 	/**
 	 * Function: load.
@@ -42,6 +42,6 @@ class GWP_Mailpoet_AddOn_Bootstrap {
 
 		require_once 'class-gwp-mailpoet.php';
 
-		GFFeedAddOn::register( 'GWP_Mailpoet' );
+		GFFeedAddOn::register( 'GWP_MP_GF_Connector' );
 	}
 }

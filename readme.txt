@@ -1,6 +1,6 @@
-=== GravityWP - Mailpoet Connector for Gravity Forms ===
+=== Connector for Gravity Forms and MailPoet ===
 Contributors: gravitywp
-Tags: gravity forms, mailpoet, newsletter, integration
+Tags: gravity forms, mailpoet, newsletter, integration, connector
 Requires at least: 5.0
 Tested up to: 6.6
 Stable tag: 1.0
@@ -11,7 +11,7 @@ Integrate Gravity Forms with Mailpoet to easily subscribe users to your Mailpoet
 
 == Description ==
 
-The GravityWP - Mailpoet Connector for Gravity Forms plugin allows you to seamlessly integrate your Gravity Forms with the Mailpoet newsletter service. This plugin provides an easy way to add subscribers to your Mailpoet lists when they submit a form on your WordPress website.
+The Connector for Gravity Forms and MailPoet plugin allows you to seamlessly integrate your Gravity Forms with the Mailpoet newsletter service. This plugin provides an easy way to add subscribers to your Mailpoet lists when they submit a form on your WordPress website.
 
 = Features =
 * Map Gravity Form fields to Mailpoet subscriber fields.
@@ -19,9 +19,9 @@ The GravityWP - Mailpoet Connector for Gravity Forms plugin allows you to seamle
 * Optionally update existing subscribers' details.
 * Conditional logic support to control when subscriptions are added.
 
-== About GravityWP Add-ons ==
+== About GravityWP ==
 
-Take Gravity Forms to the next level with GravityWP's powerfull add-ons. We provide the tools that can be used to build full blown web applications with Gravity Forms.
+GravityWP is third party that develops high quality addons for Gravity Forms. We provide additional tools that can be used to build full blown web applications.
 
 - **Advanced Merge Tags**: Unlock deeper customization by creating dynamic merge tags that allow you to pull in and display specific data from other form entries.
 - **JWT Prefill**: Securely prefill your forms with user data using JSON Web Tokens (JWT), making form submissions smoother and more user-friendly, especially for logged-in users.
@@ -30,13 +30,13 @@ Take Gravity Forms to the next level with GravityWP's powerfull add-ons. We prov
 - **Advanced Number Field**: Add powerful number fields to your forms with advanced formatting options, including currency, decimal places, and validation for more precise data handling.
 - And many more...
 
-Explore all our add-ons and unlock the full potential of Gravity Forms at https://gravitywp.com/add-ons/
+Explore all our add-ons at https://gravitywp.com/add-ons/
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/gravitywp-mailpoet/` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/gravitywp-mp-gf-connector/` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Create or edit a form and add the Mailpoet feed to start collecting subscribers.
+3. Create or edit a form and add a Mailpoet feed to start collecting subscribers.
 
 == Frequently Asked Questions ==
 
