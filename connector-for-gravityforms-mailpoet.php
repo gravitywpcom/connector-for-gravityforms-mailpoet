@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Connector for Gravity Forms and MailPoet
- * Plugin URI: https://gravitywp.com/add-on/connector-for-gravityforms-and-mailpoet
+ * Plugin URI: https://gravitywp.com/add-on/connector-for-gravityforms-mailpoet
  * Description: Integrate Gravity Forms with Mailpoet to easily subscribe users to your Mailpoet newsletters upon form submission.
  * Version: 1.0
  * Author: GravityWP
