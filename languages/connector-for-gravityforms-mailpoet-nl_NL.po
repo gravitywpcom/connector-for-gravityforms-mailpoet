@@ -42,8 +42,8 @@ msgid "Map Fields"
 msgstr "Velden toewijzen"
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:131
-msgid "Map the Gravity Form fields to the Mailpoet subscriber fields"
-msgstr "Wijs de Gravity Form-velden toe aan de velden van de Mailpoet-abonnee"
+msgid "Map the Gravity Form fields to the MailPoet subscriber fields"
+msgstr "Wijs de Gravity Form-velden toe aan de velden van de MailPoet-abonnee"
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:135
 msgid "First Name"
@@ -79,8 +79,8 @@ msgstr "Verwerk deze feed als"
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:196
 #: class-gravitywp-connector-mailpoet-gravityforms.php:205
-msgid "Mailpoet Lists"
-msgstr "Mailpoet Lijsten"
+msgid "MailPoet Lists"
+msgstr "MailPoet Lijsten"
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:198
 msgid "You don't have any lists set up."
@@ -96,11 +96,11 @@ msgstr "https://gravitywp.com/add-on/connector-for-gravity-forms-and-mailpoet"
 
 #. Description of the plugin/theme
 msgid ""
-"Integrate Gravity Forms with Mailpoet to easily subscribe users to your "
-"Mailpoet newsletters upon form submission."
+"Integrate Gravity Forms with MailPoet to easily subscribe users to your "
+"MailPoet newsletters upon form submission."
 msgstr ""
-"Integreer Gravity Forms met Mailpoet om gebruikers eenvoudig te abonneren op "
-"uw Mailpoet-nieuwsbrieven na het indienen van formulieren."
+"Integreer Gravity Forms met MailPoet om gebruikers eenvoudig te abonneren op "
+"uw MailPoet-nieuwsbrieven na het indienen van formulieren."
 
 #. Author of the plugin/theme
 msgid "GravityWP"

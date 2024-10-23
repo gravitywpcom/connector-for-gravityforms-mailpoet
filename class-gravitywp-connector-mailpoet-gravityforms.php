@@ -1,11 +1,11 @@
 <?php
 /**
- * GravityWP_Connector_Mailpoet_Gravityforms
+ * GravityWP_Connector_MailPoet_GravityForms
  *
- * @package GravityWP\Connector_Mailpoet_Gravityforms
+ * @package GravityWP\Connector_MailPoet_GravityForms
  */
 
-namespace GravityWP\Connector_Mailpoet_GravityForms;
+namespace GravityWP\Connector_MailPoet_GravityForms;
 
 defined( 'ABSPATH' ) || die();
 
@@ -16,7 +16,7 @@ GFForms::include_feed_addon_framework();
 
 
 /**
- * Class GravityWP_Connector_Mailpoet_Gravityforms
+ * Class GravityWP_Connector_MailPoet_GravityForms
  *
  * @author GravityWP
  * @since v1.0.0
@@ -24,7 +24,7 @@ GFForms::include_feed_addon_framework();
  *
  * @global
  */
-class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
+class GravityWP_Connector_MailPoet_GravityForms extends GFFeedAddOn {
 
 	/**
 	 * Version of the plugin.
@@ -66,30 +66,30 @@ class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
 	 *
 	 * @var string $_title
 	 */
-	protected $_title = 'Connector for Mailpoet and Gravity Forms';
+	protected $_title = 'Connector for MailPoet and Gravity Forms';
 
 	/**
 	 * Short plugin title.
 	 *
 	 * @var string $_short_title
 	 */
-	protected $_short_title = 'Mailpoet Connector';
+	protected $_short_title = 'MailPoet Connector';
 
 	/**
 	 * Instance of this class.
 	 *
-	 * @var GravityWP_Connector_Mailpoet_Gravityforms $_instance
+	 * @var GravityWP_Connector_MailPoet_GravityForms $_instance
 	 */
 	private static $_instance = null;
 
 	/**
 	 * Get an instance of this class.
 	 *
-	 * @return GravityWP_Connector_Mailpoet_Gravityforms
+	 * @return GravityWP_Connector_MailPoet_GravityForms
 	 */
 	public static function get_instance() {
 		if ( self::$_instance === null ) {
-			self::$_instance = new GravityWP_Connector_Mailpoet_Gravityforms();
+			self::$_instance = new GravityWP_Connector_MailPoet_GravityForms();
 		}
 
 		return self::$_instance;
@@ -128,7 +128,7 @@ class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
 						'name'      => 'mappedfields',
 						'label'     => esc_html__( 'Map Fields', 'connector-for-gravityforms-mailpoet' ),
 						'type'      => 'field_map',
-						'tooltip'   => esc_html__( 'Map the Gravity Form fields to the Mailpoet subscriber fields', 'connector-for-gravityforms-mailpoet' ),
+						'tooltip'   => esc_html__( 'Map the Gravity Form fields to the MailPoet subscriber fields', 'connector-for-gravityforms-mailpoet' ),
 						'field_map' => array(
 							array(
 								'name'  => 'first_name',
@@ -172,7 +172,7 @@ class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
 
 
 	/**
-	 * Returns the Mailpoet lists as settings array.
+	 * Returns the MailPoet lists as settings array.
 	 *
 	 * @since 1.0
 	 *
@@ -193,7 +193,7 @@ class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
 		if ( empty( $choices ) ) {
 			return array(
 				'name'  => 'no_lists',
-				'label' => esc_html__( 'Mailpoet Lists', 'connector-for-gravityforms-mailpoet' ),
+				'label' => esc_html__( 'MailPoet Lists', 'connector-for-gravityforms-mailpoet' ),
 				'type'  => 'html',
 				'html'  => esc_html__( "You don't have any lists set up.", 'connector-for-gravityforms-mailpoet' ),
 			);
@@ -202,7 +202,7 @@ class GravityWP_Connector_Mailpoet_Gravityforms extends GFFeedAddOn {
 		return array(
 			'name'     => 'mailpoet_lists',
 			'required' => true,
-			'label'    => esc_html__( 'Mailpoet Lists', 'connector-for-gravityforms-mailpoet' ),
+			'label'    => esc_html__( 'MailPoet Lists', 'connector-for-gravityforms-mailpoet' ),
 			'type'     => 'checkbox',
 			'choices'  => $choices,
 		);

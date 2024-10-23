@@ -42,7 +42,7 @@ msgid "Map Fields"
 msgstr ""
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:131
-msgid "Map the Gravity Form fields to the Mailpoet subscriber fields"
+msgid "Map the Gravity Form fields to the MailPoet subscriber fields"
 msgstr ""
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:135
@@ -79,7 +79,7 @@ msgstr ""
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:196
 #: class-gravitywp-connector-mailpoet-gravityforms.php:205
-msgid "Mailpoet Lists"
+msgid "MailPoet Lists"
 msgstr ""
 
 #: class-gravitywp-connector-mailpoet-gravityforms.php:198
@@ -96,8 +96,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Integrate Gravity Forms with Mailpoet to easily subscribe users to your "
-"Mailpoet newsletters upon form submission."
+"Integrate Gravity Forms with MailPoet to easily subscribe users to your "
+"MailPoet newsletters upon form submission."
 msgstr ""
 
 #. Author of the plugin/theme
