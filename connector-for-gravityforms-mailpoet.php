@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Connector for Gravity Forms and MailPoet
  * Plugin URI: https://gravitywp.com/add-on/connector-for-gravityforms-mailpoet
- * Description: Integrate Gravity Forms with Mailpoet to easily subscribe users to your Mailpoet newsletters upon form submission.
- * Version: 1.0
+ * Description: Integrate Gravity Forms with MailPoet to easily subscribe users to your MailPoet newsletters upon form submission.
+ * Version: 1.0.1
  * Author: GravityWP
  * Author URI: https://gravitywp.com
  * License: GPL3
@@ -13,19 +13,19 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'GRAVITYWP_MP_GF_VERSION', '1.0' );
+define( 'GRAVITYWP_MP_GF_VERSION', '1.0.1' );
 
-add_action( 'gform_loaded', array( 'GravityWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap', 'load' ), 5 );
+add_action( 'gform_loaded', array( 'GravityWP_Connector_MailPoet_GravityForms_AddOn_Bootstrap', 'load' ), 5 );
 
 /**
- * GravityWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap.
+ * GravityWP_Connector_MailPoet_GravityForms_AddOn_Bootstrap.
  *
  * @author GravityWP
  * @since v1.0
  *
  * @global
  */
-class GravityWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap {
+class GravityWP_Connector_MailPoet_GravityForms_AddOn_Bootstrap {
 
 	/**
 	 * Function: load.
@@ -44,6 +44,6 @@ class GravityWP_Connector_Mailpoet_Gravityforms_AddOn_Bootstrap {
 
 		require_once 'class-gravitywp-connector-mailpoet-gravityforms.php';
 
-		GFFeedAddOn::register( 'GravityWP\Connector_Mailpoet_GravityForms\GravityWP_Connector_Mailpoet_Gravityforms' );
+		GFFeedAddOn::register( 'GravityWP\Connector_MailPoet_GravityForms\GravityWP_Connector_MailPoet_GravityForms' );
 	}
 }
