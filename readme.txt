@@ -2,7 +2,7 @@
 Contributors: gravitywp
 Tags: gravity forms, mailpoet, newsletter, integration, connector
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -13,6 +13,8 @@ Integrate Gravity Forms with MailPoet to easily subscribe users to your MailPoet
 
 The Connector for Gravity Forms and MailPoet plugin allows you to seamlessly integrate your Gravity Forms with the MailPoet newsletter service. This plugin provides an easy way to add subscribers to your MailPoet lists when they submit a form on your WordPress website.
 
+For more details, visit the [Connector for Gravity Forms and MailPoet Add-On](https://gravitywp.com/add-on/connector-for-gravityforms-and-mailpoet/) page on our website.
+
 = Features =
 * Map Gravity Form fields to MailPoet subscriber fields.
 * Automatically subscribe users to one or more MailPoet lists upon form submission.
@@ -21,7 +23,7 @@ The Connector for Gravity Forms and MailPoet plugin allows you to seamlessly int
 
 == About GravityWP ==
 
-GravityWP is third party that develops high quality addons for Gravity Forms. We provide additional tools that can be used to build full blown web applications.
+GravityWP is a third party that develops high-quality addons for Gravity Forms. We provide additional tools that can be used to build full-blown web applications.
 
 - **Advanced Merge Tags**: Unlock deeper customization by creating dynamic merge tags that allow you to pull in and display specific data from other form entries.
 - **JWT Prefill**: Securely prefill your forms with user data using JSON Web Tokens (JWT), making form submissions smoother and more user-friendly, especially for logged-in users.
@@ -30,7 +32,7 @@ GravityWP is third party that develops high quality addons for Gravity Forms. We
 - **Advanced Number Field**: Add powerful number fields to your forms with advanced formatting options, including currency, decimal places, and validation for more precise data handling.
 - And many more...
 
-Explore all our add-ons at https://gravitywp.com/add-ons/
+Discover our full range of powerful [Add-ons for Gravity Forms](https://gravitywp.com/add-ons/).
 
 == Installation ==
 
