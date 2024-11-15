@@ -50,9 +50,9 @@ Yes, you must have Gravity Forms installed and activated to use this plugin.
 
 Yes, it works with both the free and premium versions of MailPoet.
 
-= Can I map custom fields from my Gravity Forms to MailPoet? =
+= Which fields from my Gravity Forms can I map to MailPoet? =
 
-Yes, you can map most form fields to MailPoet fields using the field mapping settings in the feed configuration.
+You can map most Gravity Forms fields to default MailPoet fields using the field mapping settings in the feed configuration.
 
 = How do I set up conditional logic for subscriptions? =
 
