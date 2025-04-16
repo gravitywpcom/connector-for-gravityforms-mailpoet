@@ -15,7 +15,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
+      # Ensure Subversion is installed
+      - name: Install Subversion
+        run: sudo apt-get update && sudo apt-get install subversion -y
+
       - name: WordPress Plugin Deploy
         id: deploy
         uses: 10up/action-wordpress-plugin-deploy@stable
