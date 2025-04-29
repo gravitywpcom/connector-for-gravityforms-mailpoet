@@ -3,7 +3,7 @@
  * Plugin Name: Connector for Gravity Forms and MailPoet
  * Plugin URI: https://gravitywp.com/add-on/connector-for-gravityforms-mailpoet
  * Description: Integrate Gravity Forms with MailPoet to easily subscribe users to your MailPoet newsletters upon form submission.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: GravityWP
  * Author URI: https://gravitywp.com
  * License: GPL3
@@ -13,7 +13,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'GRAVITYWP_MP_GF_VERSION', '1.0.1' );
+define( 'GRAVITYWP_MP_GF_VERSION', '1.0.2' );
 
 add_action( 'gform_loaded', array( 'GravityWP_Connector_MailPoet_GravityForms_AddOn_Bootstrap', 'load' ), 5 );
 

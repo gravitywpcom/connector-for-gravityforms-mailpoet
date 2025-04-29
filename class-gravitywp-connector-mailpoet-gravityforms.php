@@ -83,6 +83,33 @@ class GravityWP_Connector_MailPoet_GravityForms extends GFFeedAddOn {
 	private static $_instance = null;
 
 	/**
+	 * Defines the capabilities needed,
+	 *
+	 * @since  1.0
+	 * @access protected
+	 * @var    array $_capabilities The capabilities needed for the Add-On
+	 */
+	protected $_capabilities = array( 'gravitywp_connector_mailpoet_gf_form_settings', 'gravitywp_connector_mailpoet_gf_uninstall' );
+
+	/**
+	 * Defines the capability needed to access the Add-On form settings page.
+	 *
+	 * @since  1.0
+	 * @access protected
+	 * @var    string $_capabilities_form_settings The capability needed to access the Add-On form settings page.
+	 */
+	protected $_capabilities_form_settings = 'gravitywp_connector_mailpoet_gf_form_settings';
+
+	/**
+	 * Defines the capability needed to uninstall the Add-On.
+	 *
+	 * @since  1.0
+	 * @access protected
+	 * @var    string $_capabilities_uninstall The capability needed to uninstall the Add-On.
+	 */
+	protected $_capabilities_uninstall = 'gravitywp_connector_mailpoet_gf_uninstall';
+
+	/**
 	 * Get an instance of this class.
 	 *
 	 * @return GravityWP_Connector_MailPoet_GravityForms
